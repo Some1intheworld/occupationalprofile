@@ -1,0 +1,233 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+.flex {
+  display: Flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.this-page {
+  background: #3a64bd;
+  border-radius: 50px;
+  padding: 5px 10px;
+  color: white !important;
+}
+
+nav {
+  background-image: url(dark-hexagonal-background-with-gradient-color_79603-1410.jpeg);
+  color: white;
+  text-align: center;
+  height: 18em;
+  font-weight: bold;
+}
+
+.title {
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+nav h1 {
+  font-size: 50px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.navigation ul a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: 0.2s;
+}
+
+.navigation ul a:hover {
+  color: #fca311;
+}
+
+.container {
+  width: 93%;
+  margin: auto;
+}
+
+* {
+  text-align: center;
+}
+
+.description li,
+.description {
+  line-height: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.description-container {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.designer-icon {
+  width: 8em;
+}
+
+h2 {
+  color: #fca311;
+  margin-top: 60px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.conditions-container {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  background-image: url(conditions.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  display: block;
+  margin-right: 100px;
+}
+
+.conditions-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #e5e5e5;
+  overflow: hidden;
+  height: 0;
+  transition: 0.5s ease;
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.conditions-overlay p {
+  padding: 100px 0;
+}
+
+.conditions-container:hover .conditions-overlay {
+  height: 100%;
+}
+
+.salary-container {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  background-image: url(salary.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  display: block;
+  margin-right: 100px;
+}
+
+.salary-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #e5e5e5;
+  overflow: hidden;
+  height: 0;
+  transition: 0.5s ease;
+  width: 100%;
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.salary-overlay p {
+  padding: 125px 0;
+}
+
+.salary-container:hover .salary-overlay {
+  height: 100%;
+}
+
+.additional-container {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  background-image: url(additional.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  display: block;
+}
+
+.additional-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #e5e5e5;
+  overflow: hidden;
+  height: 0;
+  transition: 0.5s ease;
+  width: 100%;
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.additional-overlay p {
+  padding: 70px 0;
+  width: 90%;
+  margin: auto;
+}
+
+.additional-container:hover .additional-overlay {
+  height: 100%;
+}
+
+.hover {
+  font-size: 10px;
+  font-style: italic;
+  color: red;
+  margin: 30px 0;
+  margin-bottom: 60px;
+}
+
+.next {
+  font-style: normal;
+  text-decoration: none;
+  color: white;
+  background: #14213d;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.extend {
+  padding: 20px 0;
+}
+
+.hidden {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+}
+
+.next:hover {
+  background: #223662;
+}

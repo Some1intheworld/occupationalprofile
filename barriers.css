@@ -1,0 +1,231 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+.flex {
+  display: Flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.this-page {
+  background: #3a64bd;
+  border-radius: 50px;
+  padding: 5px 10px;
+  color: white !important;
+}
+
+nav {
+  text-align: center;
+  height: 18em;
+  font-weight: bold;
+  background-image: url(Barriers-of-Communication.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.title {
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+nav h1 {
+  font-size: 50px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.navigation ul a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: 0.2s;
+}
+
+.navigation ul a:hover {
+  color: #fca311;
+}
+
+.container {
+  width: 93%;
+  margin: auto;
+}
+
+.next {
+  font-style: normal;
+  text-decoration: none;
+  color: white;
+  background: #14213d;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.cards div p,
+.cards div ul {
+  width: 80%;
+  margin: auto;
+  line-height: 1.8em;
+}
+
+.cards div h2 {
+  font-size: 35px;
+}
+
+.cards div {
+  border-radius: 20px;
+  width: 80%;
+  max-width: 24em;
+  margin: 20px 50px;
+}
+
+.cards ul {
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.circle {
+  margin-top: 30px !important;
+}
+
+.financial {
+  background: #d9d9d9;
+}
+
+.financial .circle {
+  width: 5em;
+  height: 5em;
+  border-radius: 50px;
+  background: white;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.financial .circle::before {
+  content: "1";
+  position: absolute;
+  top: 23px;
+  left: 33px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.finding {
+  background: #14213d;
+  color: white;
+}
+
+.finding .circle {
+  width: 5em;
+  height: 5em;
+  border-radius: 50px;
+  background: #fca311;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.finding .circle::before {
+  content: "2";
+  position: absolute;
+  top: 23px;
+  left: 31px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.work-hours {
+  background: #fca311;
+}
+
+.work-hours .circle {
+  width: 5em;
+  height: 5em;
+  border-radius: 50px;
+  background: #14213d;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.work-hours .circle::before {
+  content: "3";
+  position: absolute;
+  top: 23px;
+  left: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.extend {
+  padding: 20px 0;
+}
+
+.hidden {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+}
+
+.next:hover {
+  background: #223662;
+}
+
+.financial img {
+  width: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.financial h2 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.finding img {
+  width: 45px;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.finding h2 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.work-hours img {
+  width: 45px;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.work-hours h2 {
+  display: inline-block;
+  vertical-align: middle;
+}
