@@ -231,3 +231,10 @@ h2 {
 .next:hover {
   background: #223662;
 }
+
+.daily {
+  margin: 30px;
+  margin-bottom: -40px;
+  color: black;
+  padding: 0;
+}
